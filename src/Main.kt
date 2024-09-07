@@ -1,3 +1,10 @@
 fun main() {
-    println("Hello World!")
+    printval(12)
+    printval("Предложение")
+
+
+}
+
+fun <T> printval(value: T){
+    println(value)
 }
